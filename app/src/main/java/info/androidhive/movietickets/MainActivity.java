@@ -18,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
         // making toolbar transparent
         transparentToolbar();
-
+        //https://www.androidhive.info/2017/08/android-barcode-scanner-using-google-mobile-vision-building-movie-tickets-app/
+        //https://www.androidhive.info/2014/01/how-to-create-rest-api-for-android-app-using-php-slim-and-mysql-day-12-2/
+        //https://www.androidhive.info/2011/11/android-sqlite-database-tutorial/
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.btn_scan).setOnClickListener(new View.OnClickListener() {
