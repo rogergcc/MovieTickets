@@ -31,7 +31,7 @@
         android:background="@android:color/transparent"
         android:orientation="vertical"
         android:paddingTop="@dimen/dimen_10"
-       >
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/director"
