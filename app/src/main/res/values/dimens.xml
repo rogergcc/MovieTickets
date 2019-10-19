@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="dimen_20">20dp</dimen>
-    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_10">5dp</dimen>
     <dimen name="activity_margin">16dp</dimen>
     <dimen name="lbl_directory">14dp</dimen>
     <dimen name="lbl_movie_name">28dp</dimen>
     <dimen name="img_poster_height">220dp</dimen>
     <dimen name="dimen_40">40dp</dimen>
+
+    <dimen name="textTitle1">12sp</dimen>
+    <dimen name="dimen_label_10">11sp</dimen>
+    <dimen name="dimen_value_20">18sp</dimen>
+    <dimen name="dimen_title">22sp</dimen>
+    <dimen name="dimen_button">20sp</dimen>
+
+
 </resources>

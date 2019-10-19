@@ -29,7 +29,8 @@ public class TicketResultActivity extends AppCompatActivity {
     private static final String TAG = TicketResultActivity.class.getSimpleName();
 
     // url to search barcode
-    private static final String URL = "https://api.androidhive.info/barcodes/search.php?code=";
+//    private static final String URL = "https://api.androidhive.info/barcodes/search.php?code=";
+    private static final String URL = "http://192.168.0.23/MovieTicketsServer/index.php?code=";
 
     private TextView txtName, txtDuration, txtDirector, txtGenre, txtRating, txtPrice, txtError;
     private ImageView imgPoster;
@@ -118,6 +119,7 @@ public class TicketResultActivity extends AppCompatActivity {
      */
     private void renderMovie(JSONObject response) {
         try {
+
 
             // converting json to movie object
             Movie movie = new Gson().fromJson(response.toString(), Movie.class);
